@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "218419493577",
+    "firebase_url": "https://iot-vaccine-monitor-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "iot-vaccine-monitor",
+    "storage_bucket": "iot-vaccine-monitor.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218419493577:android:2376ed1afd82f62c02eb18",
+        "android_client_info": {
+          "package_name": "com.example.iotvaccine"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7ZOUwTFqNu-g-JMVBMrQEVyUDM4tRe3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

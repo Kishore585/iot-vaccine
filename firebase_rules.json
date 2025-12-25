@@ -1,0 +1,28 @@
+{
+  "rules": {
+    ".read": true,
+    ".write": true,
+    "temperatures": {
+      ".read": true,
+      ".write": true,
+      "$temperatureId": {
+        ".validate": "newData.hasChildren(['temperature', 'location', 'deviceId', 'timestamp', 'status'])",
+        "temperature": {
+          ".validate": "newData.isNumber()"
+        },
+        "location": {
+          ".validate": "newData.isString()"
+        },
+        "deviceId": {
+          ".validate": "newData.isString()"
+        },
+        "timestamp": {
+          ".validate": "newData.isString()"
+        },
+        "status": {
+          ".validate": "newData.isString() && (newData.val() === 'normal' || newData.val() === 'warning' || newData.val() === 'critical')"
+        }
+      }
+    }
+  }
+} 
